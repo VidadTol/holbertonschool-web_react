@@ -1,4 +1,4 @@
-// Définition de l'interface Student
+// Creating an interface for a student ex 0
 interface Student {
     firstName: string;
     lastName: string;
@@ -6,7 +6,7 @@ interface Student {
     location: string;
 }
 
-// Création des étudiants
+// Creating two student objects
 const student1: Student = {
     firstName: "Wyatt",
     lastName: "Smith",
